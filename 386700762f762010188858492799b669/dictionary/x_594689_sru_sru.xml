@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="SRU" max_length="40" name="x_594689_sru_sru" type="collection">
+    <element label="SRU" max_length="40" name="x_594689_sru_sru" sizeclass="0" type="collection">
         <element label="Contact" max_length="40" name="contact" type="phone_number_e164"/>
         <element label="Name_Student" max_length="40" name="name_student" type="string"/>
         <element label="Roll_no" max_length="40" name="roll_no" type="string"/>

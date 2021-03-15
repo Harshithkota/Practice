@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Studnet Info" max_length="40" name="x_594689_sru_studnet_info" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contact" max_length="40" name="contact" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ECE" value="ECE"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" max_length="40" name="roll_no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
